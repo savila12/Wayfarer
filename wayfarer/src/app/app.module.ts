@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CitiesComponent } from './cities/cities.component';
+import { CarouselBasicComponent } from './carousel-basic/carousel-basic.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    CitiesComponent
+    CitiesComponent,
+    CarouselBasicComponent
   ],
   imports: [
     BrowserModule,
