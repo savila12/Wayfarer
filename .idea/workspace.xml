@@ -1,7 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0544dca-3ea3-472c-811f-1f9771bccff0" name="Default Changelist" comment="" />
+    <list default="true" id="a0544dca-3ea3-472c-811f-1f9771bccff0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Wayfarer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/app/carousel-basic/carousel-basic.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/app/carousel-basic/carousel-basic.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/app/carousel-basic/carousel-basic.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/app/carousel-basic/carousel-basic.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/app/cities/cities.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/app/cities/cities.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/app/cities/cities.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/app/cities/cities.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/app/navbar/navbar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/app/navbar/navbar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/app/navbar/navbar.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/app/navbar/navbar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/assets/london.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/assets/san-francisco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/assets/seattle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/assets/sydney.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wayfarer/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,19 +88,6 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/wayfarer/node_modules/typescript/lib" />
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
