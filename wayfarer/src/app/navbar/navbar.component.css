@@ -4,11 +4,12 @@ section {
 }
 a {
   color: white;
+  font-size: 46px;
 }
 svg{
   background-color: darkslateblue;
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   fill: ghostwhite;
   margin-left: 5px;
   margin-right: 10px;
@@ -23,6 +24,10 @@ svg{
   background-color: darkslateblue;
   background-image: none;
 }
+.dropdown-menu {
+  text-align: center;
+}
 .dropdown-menu a {
   color: darkslateblue;
+  font-size: 32px;
 }
