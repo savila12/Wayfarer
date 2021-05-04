@@ -1,0 +1,14 @@
+section {
+  background-color: darkslateblue;
+  display: flex;
+}
+a {
+  color: ghostwhite;
+}
+svg{
+  width: 100px;
+  height: 100px;
+  fill: ghostwhite;
+  margin-left: 5px;
+  margin-right: 10px;
+}
