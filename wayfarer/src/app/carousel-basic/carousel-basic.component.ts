@@ -8,8 +8,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarouselBasicComponent implements OnInit {
 
-  // images = ['london.png', 'san-francisco.png', 'seattle.png', 'sydney.png'].map((n) => `wayfarer/src/assets/images/${n}`);
-
   constructor() { }
 
   ngOnInit(): void {
