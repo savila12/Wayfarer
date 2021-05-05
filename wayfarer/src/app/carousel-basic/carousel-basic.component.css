@@ -3,6 +3,7 @@
 /*  height: auto;*/
 /*}*/
 img {
+  padding: 0 50px;
   width: 1000px;
   height: 550px;
 }

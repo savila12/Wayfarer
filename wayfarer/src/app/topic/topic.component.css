@@ -3,6 +3,7 @@
   grid-auto-flow: column;
   gap: 10px;
   justify-content: space-between;
+  padding: 0 50px;
 }
 h2 {
   text-align: center;

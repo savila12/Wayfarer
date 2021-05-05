@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { CitiesComponent } from './cities/cities.component';
 import { CarouselBasicComponent } from './carousel-basic/carousel-basic.component';
 import {TopicComponent} from './topic/topic.component';
-
+import { CityComponent } from './city/city.component';
 
 
 const routes: Routes = [
@@ -17,8 +17,14 @@ const routes: Routes = [
   },
   {
     path: 'cities',
-    component: CitiesComponent
-  }
+    component: CitiesComponent,
+    children: [
+      {
+        path: ':id',
+        component: CityComponent
+      }
+    ]
+  },
 ];
 
 @NgModule({

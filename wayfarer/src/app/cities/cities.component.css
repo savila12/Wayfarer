@@ -1,0 +1,50 @@
+.mainContainer{
+  width: 100%;
+  /*height: auto;*/
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+.container-left{
+  display: flex;
+  align-content: space-between;
+  border: solid black;
+  margin-left: 0;
+  padding: 10px 10px;
+  width: 25%;
+  background-color: grey;
+  justify-content: center;
+
+}
+.container-right{
+  /*display: grid;*/
+  /*grid-template-rows: 25% 25% 25% 25%;*/
+  /*grid-template-columns: 50% 50%;*/
+  border: solid black;
+  height: auto;
+  width: 74%;
+
+}
+.city-component{
+  display: flex;
+  border-radius: 25px;
+  border: solid black;
+  background-color: white;
+  /*text-align: right;*/
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.img-container{
+  padding: 5px;
+  /*text-align: left;*/
+  /*justify-content: center;*/
+  /*align-items: center;*/
+}
+img{
+
+  height: 90px;
+  width: 100px;
+}
+
+

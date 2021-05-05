@@ -1,0 +1,34 @@
+.city-container{
+  padding: 30px 40px;
+  grid-column: 1;
+  grid-row: 1 / 2;
+}
+.image-container{
+  padding: 10px 10px;
+ text-align: right;
+}
+img{
+  height: auto;
+  width: 350px;
+}
+.post-container img{
+  border: solid black;
+  width: 100px;
+  height: 100px;
+}
+.post-container{
+  border: solid black;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 15px
+}
+#post-image{
+  text-align: center;
+  padding: 0;
+}
+#post-title{
+  padding: 0;
+}
+#post{
+  padding: 0;
+}
