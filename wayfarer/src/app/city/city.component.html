@@ -10,26 +10,15 @@
   </div>
   <div class="row ">
     <h1>Posts</h1>
-    <div class="col-sm-8 post-container">
-      <div class="col-sm-3" id="post-image1">
-        <img src="assets/images/no-img.jpeg" alt="">
+    <div *ngFor="let post of city.posts; index as i"  class="post-container col-sm-10">
+      <div class="col-sm-2 post-image">
+        <img src="{{city.imageUrl}}" alt="">
       </div>
-      <div class="col-sm-4" id="post-title1">
-        <h3>Title</h3>
-      </div>
-      <div class="col-sm-8" id="post1">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam beatae, commodi cupiditate id impedit ipsam itaque iure laudantium maiores nemo nobis perferendis possimus quibusdam reiciendis reprehenderit sint unde ut voluptas.</p>
-      </div>
-    </div>
-    <div class="col-sm-8 post-container">
-      <div class="col-sm-3" id="post-image2">
-        <img src="assets/images/no-img.jpeg" alt="">
-      </div>
-      <div class="col-sm-4" id="post-title2">
-        <h3>Title</h3>
-      </div>
-      <div class="col-sm-8" id="post2">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam beatae, commodi cupiditate id impedit ipsam itaque iure laudantium maiores nemo nobis perferendis possimus quibusdam reiciendis reprehenderit sint unde ut voluptas.</p>
+      <div class="col-sm-8">
+        <h2>
+          <a routerLink="/cities/{{city.id}}/posts/{{i}}">{{post.title}}</a>
+        </h2>
+        <p>{{post.body}}</p>
       </div>
     </div>
   </div>

@@ -8,6 +8,7 @@ import { CitiesComponent } from './cities/cities.component';
 import { CarouselBasicComponent } from './carousel-basic/carousel-basic.component';
 import { TopicComponent } from './topic/topic.component';
 import { CityComponent } from './city/city.component';
+import { PostComponent } from './post/post.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CityComponent } from './city/city.component';
     CitiesComponent,
     CarouselBasicComponent,
     TopicComponent,
-    CityComponent
+    CityComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,

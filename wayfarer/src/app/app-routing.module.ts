@@ -4,6 +4,7 @@ import { CitiesComponent } from './cities/cities.component';
 import { CarouselBasicComponent } from './carousel-basic/carousel-basic.component';
 import {TopicComponent} from './topic/topic.component';
 import { CityComponent } from './city/city.component';
+import {PostComponent} from './post/post.component';
 
 
 const routes: Routes = [
@@ -21,7 +22,11 @@ const routes: Routes = [
     children: [
       {
         path: ':id',
-        component: CityComponent
+        component: CityComponent,
+      },
+      {
+        path: ':id/posts/:postId',
+        component: PostComponent
       }
     ]
   },
