@@ -10,17 +10,17 @@
   </div>
   <div class="row ">
     <h1>Posts</h1>
-    <div *ngFor="let post of city.posts; index as i"  class="post-container col-sm-10">
-      <div class="col-sm-2 post-image">
-        <img src="{{city.imageUrl}}" alt="">
+      <div *ngFor="let post of city.posts; index as i" [className]="post.title.length > 1 && post.title.length <= 200 && post.body.length != 0 ? 'post-container col-sm-10' : 'post-container-borderless'">
+          <div class="col-sm-2 post-image">
+            <img src="{{city.imageUrl}}" alt="">
+          </div>
+          <div class="col-sm-8">
+            <h2>
+              <a routerLink="/cities/{{city.id}}/posts/{{i}}">{{post.title}}</a>
+            </h2>
+            <p>{{post.body}}</p>
+          </div>
       </div>
-      <div class="col-sm-8">
-        <h2>
-          <a routerLink="/cities/{{city.id}}/posts/{{i}}">{{post.title}}</a>
-        </h2>
-        <p>{{post.body}}</p>
-      </div>
-    </div>
   </div>
 </div>
 

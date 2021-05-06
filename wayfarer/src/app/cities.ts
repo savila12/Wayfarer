@@ -6,13 +6,13 @@ export const CITIES = [
     imageUrl: 'assets/images/san-francisco.png',
     posts: [
       {
-      title: 'title 1',
+      title: 'Title 1',
       author: 'Jon Doe',
       body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At officia, pariatur qui quis quo ullam vel?' +
-         ' Accusamus maxime officia vitae voluptatibus! Doloremque maiores mollitia nobis quisquam. Laboriosam molestiae quod voluptates?'
+        ' Accusamus maxime officia vitae voluptatibus! Doloremque maiores mollitia nobis quisquam. Laboriosam molestiae quod voluptates?'
       },
       {
-        title: 'title 2',
+        title: 'Title 2',
         author: 'Jane Doe',
         body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At officia, pariatur qui quis quo ullam vel?' +
           ' Accusamus maxime officia vitae voluptatibus! Doloremque maiores mollitia nobis quisquam. Laboriosam molestiae quod voluptates?'

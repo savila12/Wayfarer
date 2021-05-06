@@ -22,6 +22,9 @@ img{
   padding: 5px;
   margin: 15px
 }
+.post-container-borderless{
+  display: none;
+}
 .post-image{
   text-align: center;
   padding: 0;

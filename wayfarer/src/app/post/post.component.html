@@ -1,6 +1,7 @@
-<div class="post-container">
+<div *ngIf="post.title.length > 1 && post.title.length <= 200" class="post-container">
   <h1>Post for {{city.name}}</h1>
-  <h2>Post Title: {{post.title}}</h2>
+
+  <h2 >Post Title: {{post.title}}</h2>
   <p>Written By: {{post.author}}</p>
   <p>{{post.body}}</p>
 </div>
