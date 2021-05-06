@@ -3,6 +3,7 @@ export const CITIES = [
     id: 1,
     name: 'San Fransisco',
     country: 'United States',
+    zip: '94016',
     imageUrl: 'assets/images/san-francisco.png',
     posts: [
       {
@@ -23,6 +24,7 @@ export const CITIES = [
     id: 2,
     name: 'London',
     country: 'United Kingdom',
+    zip: 'EC1A',
     imageUrl: 'assets/images/london.png',
     posts: [
       {
@@ -42,6 +44,7 @@ export const CITIES = [
     id: 3,
     name: 'Sydney',
     country: 'Australia',
+    zip: '2000',
     imageUrl: 'assets/images/sydney.png',
     posts: [
       {
@@ -61,6 +64,7 @@ export const CITIES = [
     id: 4,
     name: 'Seattle',
     country: 'United States',
+    zip: '98101',
     imageUrl: 'assets/images/seattle.png',
     posts: [
       {
@@ -80,6 +84,7 @@ export const CITIES = [
     id: 5,
     name: 'Gibraltar',
     country: 'United Kingdom',
+    zip: 'GX11 1AA',
     imageUrl: 'assets/images/gibraltar.png',
     posts: [
       {
