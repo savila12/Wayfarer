@@ -32,3 +32,13 @@ img{
 p{
   font-size: 16px;
 }
+.post-title{
+  color: black;
+  text-decoration: none;
+}
+.post-title:hover{
+  text-decoration: underline;
+}
+#city-name{
+  font-size: 32px;
+}

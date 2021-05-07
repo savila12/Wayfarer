@@ -1,7 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
 import {CITIES} from '../cities';
-import { WeatherComponent } from '../weather/weather.component';
 
 @Component({
   selector: 'app-city',

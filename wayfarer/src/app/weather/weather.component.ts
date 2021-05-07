@@ -1,6 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
 import { Subject } from 'rxjs';
-import { WeatherService } from './weather.service';
 import {CITIES} from '../cities';
 import {HttpClient} from '@angular/common/http';
 
@@ -11,8 +10,9 @@ import {HttpClient} from '@angular/common/http';
 })
 export class WeatherComponent implements OnInit {
   cities: any = CITIES;
-  //@Input() zip: string;
+
   @Input() city: any;
+
   weather: any;
   searchSubject = new Subject();
   constructor(private http: HttpClient) { }

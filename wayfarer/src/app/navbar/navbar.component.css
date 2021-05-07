@@ -5,6 +5,10 @@ section {
 a {
   color: white;
   font-size: 46px;
+  text-decoration: none;
+}
+.cities-menu:hover{
+  text-decoration: underline;
 }
 svg{
   background-color: darkslateblue;

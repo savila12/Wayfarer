@@ -1,7 +1,7 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-sm-4 city-container">
-      <h1>{{city.name}}</h1>
+      <h1 id="city-name">{{city.name}}</h1>
       <h2>{{city.country}}</h2>
       <app-weather city="{{city.name}}" ></app-weather>
     </div>
@@ -17,7 +17,7 @@
           </div>
           <div class="col-sm-8">
             <h2>
-              <a routerLink="/cities/{{city.id}}/posts/{{i}}">{{post.title}}</a>
+              <a routerLink="/cities/{{city.id}}/posts/{{i}}" class="post-title">{{post.title}}</a>
             </h2>
             <p>{{post.body}}</p>
           </div>
